@@ -1,0 +1,78 @@
+/* Header sectie */
+.header {
+    background-color: #5694DB;
+    padding: 20px 0;
+}
+
+.header-title {
+    color: #fff;
+    text-align: center;
+}
+
+.header-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Profiel sectie */
+.profile-section {
+    background-color: #f8f9fa; /* Lichte achtergrondkleur */
+    padding: 40px 0; /* Extra ruimte voor de sectie */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profile-photo {
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
+.profile-name {
+    color: #8B0000; /* Donkerrood voor de naam */
+    font-size: 2rem; /* Vergroot de naam */
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Responsive padding */
+.card-body {
+    padding: 1.9rem;
+}
+
+@media screen and (min-width: 576px) {
+    .card-body {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-body {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-body {
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+    }
+}
+
